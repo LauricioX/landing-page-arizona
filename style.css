@@ -434,6 +434,10 @@ color: var(--cor-principal);
  /* responsividade  */
 
  @media screen and (max-width:430px) {
+
+    .title__hero__container p{
+        padding: 0px 7px;
+    }
      .header__container{
          flex-direction: column-reverse;
      }
